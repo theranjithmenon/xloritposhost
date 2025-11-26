@@ -97462,7 +97462,8 @@ q=3
 s=6
 return A.t(o.a.at.a.Dg(a.a,a.b),$async$$2)
 case 6:n=d
-if(n.d!=="POS"||n.d!=="KIOSK"){l=A.e5("Unauthorized device type")
+n.toString
+if(n.d!=="POS"&&n.d!=="KIOSK"){l=A.e5("Unauthorized device type")
 throw A.e(l)}l=n
 s=7
 return A.t(A.aee(new A.na(l.a,l.b,l.c,l.d,null,null,A.v(t.FF,t.S))),$async$$2)
